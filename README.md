@@ -42,5 +42,21 @@ Then from a windows command or Powershell window (as administrator), traverse to
 docker-compose up -d
 ```
 
+...and wait
+
+...and wait
+
+hopefully once it has finished, you will have a running devilbox.
+
+I didn't.  I got an error about the port 1053 used by the bind container couldn't be created.
+As I had been starting and stopping a lot of containers, I decided to reboot the system.
+
+After it came back up, I made sure there was nothing accidentally started in the docker and ran the command again.
+This time success.
+
+point your browser to https://localhost and you should see the devilbox dashboard.
+
+
+
 
 
